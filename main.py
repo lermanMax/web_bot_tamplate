@@ -10,7 +10,7 @@ from aiogram.dispatcher.webhook.aiohttp_server import SimpleRequestHandler, setu
 from aiogram.types import MenuButtonWebApp, WebAppInfo
 
 TELEGRAM_TOKEN = '2077068921:AAHBsp7gC6QeGTUDxf9FLLKyqDEjK0nZWHs'
-APP_BASE_URL = 'http://185.251.91.158'
+APP_BASE_URL = 'https://185.251.91.158'
 
 
 async def on_startup(bot: Bot, base_url: str):
